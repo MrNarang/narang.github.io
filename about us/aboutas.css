@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'roboto Condensed', sans-serif;
+    text-decoration: none;
+    transition: 0.3s;
+}
+body{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+section{
+    margin: 100px 0;
+    color: #140f1f;
+}
+.contnaier{
+    width: 85%;
+    margin: auto;
+}
+.btn{
+    padding: 15px 35px;
+    background-color: #ad2c51;
+    border-radius: 5px;
+    color: #fffdfd;
+    font-weight: bold;
+    letter-spacing: 1.3px;
+    border: 2px solid hsl(338, 17%, 9%);
+}
+.btn:hover{
+    background-color: transparent;
+    color: #6d2039;
+}
+.boxs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.boxs .box{
+    width: 1%;
+}
+.oke{
+    margin-bottom: 9.5rem;
+    width: 200%;
+    /* height: calc(100vh - 100px); */
+    min-height: 600px;
+    background: url(../iamges/clcp0tkqt9ihpmyc-0_0_desktop_0_1X.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.oke .header{
+    color: #ffffff;
+}
+
+/* satrt header */
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(247, 251, 255, 0.507);
+    border-bottom: 1px solid #030202;
+    box-shadow: 0px 0px 8px #4444;
+    z-index: 100;
+}
+.navbar nav{
+    width: 85%;
+    margin: auto;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar nav .logo{
+    color: #111;
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.navbar nav .logo span{
+    color: #ee2761;
+}
+.navbar nav .nav a{
+    color: #111;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    font-size: 18px;
+    margin: 0 35px;
+    text-transform: capitalize;
+}
+.navbar nav .nav a:hover,
+.navbar nav .nav a.active{
+    color: #c40037;
+}
+.navbar .right-nav{
+    color: #000000;
+}
+.navbar .right-nav i:hover{
+    color: #c40037;
+}
+.header{
+    margin-top: 3rem;
+}
